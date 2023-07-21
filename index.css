@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    padding: 1em 1.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-profile,
+.icon-chat {
+    width: 34px;
+    height: 34px;
+}
+
+.logo {
+    width: 84px;
+    height: 42px;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img{
+    width: 97vw;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 2rem;
+}
+
+.btn {
+    padding: 1.5rem 1.5rem;
+    border-radius: 100px;
+    background-color: whitesmoke;
+}
